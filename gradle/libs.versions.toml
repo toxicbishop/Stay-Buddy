@@ -26,7 +26,7 @@ credentials = "1.2.2"
 googleid = "1.1.1"
 cloudinary = "2.4.0"
 work = "2.10.0"
-hiltWork = "1.2.0"
+hiltWork = "1.4.0"
 
 room = "2.6.1"
 retrofit = "2.11.0"
