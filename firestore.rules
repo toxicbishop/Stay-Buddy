@@ -1,0 +1,190 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default: deny everything
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isAdmin() {
+      return request.auth != null &&
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.isActive == true;
+    }
+
+    function hasPermission(permission) {
+      return isAdmin() &&
+        permission in get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.permissions;
+    }
+
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // Admins collection
+    match /admins/{adminId} {
+      // Own doc readable for login/session; the full roster only for admins
+      // who can manage admins. Normal app users can no longer enumerate
+      // admin emails/roles.
+      allow read: if request.auth.uid == adminId || hasPermission('admins.manage');
+      allow write: if false;  // Admin SDK only
+    }
+
+    // Users
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow create: if isOwner(userId);
+      allow update: if request.auth != null;
+      match /saved_searches/{searchId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /verification_history/{historyId} {
+        allow read, write: if request.auth != null;
+      }
+    }
+
+    // PG Listings (both pgs and pg_listings)
+    match /pgs/{listingId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null;
+      allow delete: if request.auth != null;
+      match /reviews/{reviewId} {
+        allow read: if request.auth != null;
+        allow create: if request.auth != null;
+        allow update: if request.auth != null;
+        allow delete: if request.auth != null;
+      }
+    }
+
+    match /pg_listings/{listingId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null || hasPermission('listings.modify');
+      allow delete: if hasPermission('listings.delete');
+      match /reviews/{reviewId} {
+        allow read: if request.auth != null;
+        allow create: if request.auth != null;
+        allow update: if request.auth != null || hasPermission('reviews.moderate');
+        allow delete: if hasPermission('reviews.moderate');
+      }
+    }
+
+    // Roommate posts
+    match /roommate_posts/{postId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null || hasPermission('roommates.modify');
+      allow delete: if hasPermission('roommates.modify');
+    }
+
+    // Chats
+    match /chats/{chatId} {
+      allow read, write: if request.auth != null;
+      match /messages/{messageId} {
+        allow read, write: if request.auth != null;
+        allow read: if hasPermission('chat.monitor');
+      }
+    }
+
+    // Favorites
+    match /favorites/{favoriteId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Inquiries
+    match /inquiries/{inquiryId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Reports
+    match /reports/{reportId} {
+      allow create: if request.auth != null;
+      allow read: if isOwner(resource.data.reporterId) || hasPermission('reports.read');
+      allow update: if hasPermission('reports.resolve');
+    }
+
+    // Support tickets
+    match /support_tickets/{ticketId} {
+      allow create: if request.auth != null;
+      allow read: if isOwner(resource.data.userId) || hasPermission('tickets.read');
+      allow update: if hasPermission('tickets.respond');
+    }
+
+    // Metadata
+    match /metadata/{docId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Location data
+    match /location_data/{docId} {
+      allow read: if true;
+      allow write: if hasPermission('config.manage');
+    }
+
+    // Location aliases (readable by all users in app, writable by authenticated admin users)
+    match /location_aliases/{aliasId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // City promotions (readable by all users, writable by admin)
+    match /promotions/{promoId} {
+      allow read: if request.auth != null;
+      allow create, update, delete: if hasPermission('config.manage');
+    }
+
+    // City market insights (readable by all users, writable by admin)
+    match /insights/{cityId} {
+      allow read: if request.auth != null;
+      allow write: if hasPermission('config.manage');
+    }
+
+    // Areas already covered by location_data rules above
+
+    // Config (admin panel)
+    match /config/{docId} {
+      allow read: if request.auth != null;
+      allow write: if hasPermission('config.manage');
+    }
+
+    // Audit logs
+    match /audit_logs/{logId} {
+      allow read: if hasPermission('audit.read');
+      allow create: if isAdmin();
+    }
+
+    // Canned responses
+    match /canned_responses/{responseId} {
+      allow read: if isAdmin();
+      allow create, update: if isAdmin();
+      allow delete: if hasPermission('admins.manage');
+    }
+
+    // Moderation notes
+    match /moderation_notes/{noteId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Notifications sent
+    match /notifications_sent/{notifId} {
+      allow read: if hasPermission('notifications.send');
+      allow create: if hasPermission('notifications.send');
+    }
+
+    // Scheduled notifications
+    match /scheduled_notifications/{notifId} {
+      allow read: if hasPermission('notifications.send');
+      allow create: if hasPermission('notifications.send');
+      allow update: if hasPermission('notifications.send');
+    }
+
+    // Notification templates
+    match /notification_templates/{templateId} {
+      allow read: if hasPermission('notifications.send');
+      allow create, update, delete: if hasPermission('notifications.send');
+    }
+  }
+}

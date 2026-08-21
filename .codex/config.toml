@@ -1,0 +1,3 @@
+[mcp_servers.reticle]
+command = "npx"
+args = ["@reticlehq/core", "mcp"]

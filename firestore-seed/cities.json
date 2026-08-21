@@ -1,0 +1,25 @@
+{
+  "cities": {
+    "Vadodara": { "lat": 22.3072, "lon": 73.1812 },
+    "Ahmedabad": { "lat": 23.0225, "lon": 72.5714 },
+    "Gandhinagar": { "lat": 23.2156, "lon": 72.6369 },
+    "Surat": { "lat": 21.1702, "lon": 72.8311 },
+    "Rajkot": { "lat": 22.3039, "lon": 70.8022 },
+    "Anand": { "lat": 22.5649, "lon": 72.9553 },
+    "Bharuch": { "lat": 21.7051, "lon": 72.9959 },
+    "Mehsana": { "lat": 23.5880, "lon": 72.3693 },
+    "Kheda": { "lat": 22.7548, "lon": 72.6844 },
+    "Godhra": { "lat": 22.7739, "lon": 73.6205 },
+    "Himmatnagar": { "lat": 23.5961, "lon": 71.8720 },
+    "Bhavnagar": { "lat": 21.7645, "lon": 72.1519 },
+    "Jamnagar": { "lat": 22.4707, "lon": 70.0727 },
+    "Junagadh": { "lat": 21.5222, "lon": 70.4856 },
+    "Nadiad": { "lat": 22.6914, "lon": 72.8603 },
+    "Valsad": { "lat": 20.5992, "lon": 72.9342 },
+    "Navsari": { "lat": 20.9506, "lon": 72.9301 },
+    "Porbandar": { "lat": 21.6420, "lon": 69.6097 },
+    "Surendranagar": { "lat": 22.7273, "lon": 71.6483 },
+    "Gandhidham": { "lat": 23.0753, "lon": 70.1335 }
+  },
+  "displayOrder": ["Vadodara","Ahmedabad","Gandhinagar","Surat","Rajkot","Anand","Bharuch","Mehsana","Kheda","Godhra","Himmatnagar","Bhavnagar","Jamnagar","Junagadh","Nadiad","Valsad","Navsari","Porbandar","Surendranagar","Gandhidham"]
+}

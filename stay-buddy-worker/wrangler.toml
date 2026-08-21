@@ -1,0 +1,19 @@
+name = "staybuddy-worker"
+main = "src/index.js"
+compatibility_date = "2023-10-16"
+compatibility_flags = ["nodejs_compat"]
+
+# Cron: fires the scheduled() handler — syncs Notion support-ticket updates AND
+# auto-sends due scheduled push notifications (every 5 minutes).
+# Requires redeploy: `npx wrangler deploy`
+[triggers]
+crons = ["*/5 * * * *"]
+
+# Secrets (to be set via `npx wrangler secret put <NAME>`):
+# NOTION_API_KEY
+# NOTION_DATABASE_ID
+# FIREBASE_PROJECT_ID
+# FIREBASE_SERVICE_ACCOUNT_JSON  ← REQUIRED for push notifications
+# FIREBASE_WEB_API_KEY
+# BOT_EMAIL
+# BOT_PASSWORD

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- StayBuddy "Hearth" brand -->
+    <color name="primary">#16705B</color>
+    <color name="primary_light">#87D6BC</color>
+    <color name="primary_dark">#0B4536</color>
+    <color name="secondary">#4C6358</color>
+    <color name="secondary_light">#B3CCBF</color>
+    <color name="secondary_dark">#354B41</color>
+
+    <!-- Splash screen background (Paper) -->
+    <color name="splash_background">#FAF7F1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#FAF7F1</color>
+</resources>

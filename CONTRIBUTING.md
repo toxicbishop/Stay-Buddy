@@ -1,0 +1,54 @@
+# Contributing to StayBuddy
+
+First off, thanks for taking the time to contribute! ❤️
+
+All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions.
+
+## Table of Contents
+
+- [Code of Conduct](#code-of-conduct)
+- [I Have a Question](#i-have-a-question)
+- [I Want To Contribute](#i-want-to-contribute)
+  - [Reporting Bugs](#reporting-bugs)
+  - [Suggesting Enhancements](#suggesting-enhancements)
+  - [Your First Code Contribution](#your-first-code-contribution)
+  - [Pull Requests](#pull-requests)
+
+## Code of Conduct
+
+This project and everyone participating in it is governed by the
+[Code of Conduct](CODE_OF_CONDUCT.md).
+By participating, you are expected to uphold this code.
+
+## I Have a Question
+
+> If you want to ask a question, we assume that you have read the available Documentation.
+
+Before you ask a question, it is best to search for existing [Issues](../../issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue.
+
+If you then still feel the need to ask a question and need clarification, we recommend the following:
+
+- Open an [Issue](../../issues/new).
+- Provide as much context as you can about what you're running into.
+- Provide project and platform versions, depending on what seems relevant.
+
+We will then take care of the issue as soon as possible.
+
+## I Want To Contribute
+
+### Reporting Bugs
+
+- Ensure the bug was not already reported by searching on GitHub under [Issues](../../issues).
+- If you're unable to find an open issue addressing the problem, [open a new one](../../issues/new). Be sure to include a title and clear description, as much relevant information as possible, and a code sample or an executable test case demonstrating the expected behavior that is not occurring.
+
+### Suggesting Enhancements
+
+- Open a new [Issue](../../issues/new).
+- Provide a clear and detailed explanation of the feature you want and why it's important to add. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset.
+
+### Pull Requests
+
+- Fill in the required template
+- Do not include issue numbers in the PR title
+- Include screenshots and animated GIFs in your pull request whenever possible.
+- End files with a newline.

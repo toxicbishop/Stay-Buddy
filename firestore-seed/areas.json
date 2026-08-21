@@ -1,0 +1,854 @@
+{
+  "areas": {
+    "Vadodara": {
+      "dattapura": {
+        "name": "Dattapura",
+        "city": "Vadodara",
+        "lat": 22.3194,
+        "lon": 73.1812
+      },
+      "waghodia_road": {
+        "name": "Waghodia Road",
+        "city": "Vadodara",
+        "lat": 22.3486,
+        "lon": 73.1511
+      },
+      "alkapuri": {
+        "name": "Alkapuri",
+        "city": "Vadodara",
+        "lat": 22.3106,
+        "lon": 73.1812
+      },
+      "gotri": {
+        "name": "Gotri",
+        "city": "Vadodara",
+        "lat": 22.3388,
+        "lon": 73.189
+      },
+      "manjalpur": {
+        "name": "Manjalpur",
+        "city": "Vadodara",
+        "lat": 22.305,
+        "lon": 73.17
+      },
+      "nishitha": {
+        "name": "Nishitha",
+        "city": "Vadodara",
+        "lat": 22.325,
+        "lon": 73.2
+      },
+      "sama": {
+        "name": "Sama",
+        "city": "Vadodara",
+        "lat": 22.34,
+        "lon": 73.16
+      },
+      "fatehgunj": {
+        "name": "Fatehgunj",
+        "city": "Vadodara",
+        "lat": 22.312,
+        "lon": 73.175
+      },
+      "karelibaug": {
+        "name": "Karelibaug",
+        "city": "Vadodara",
+        "lat": 22.335,
+        "lon": 73.155
+      },
+      "atladara": {
+        "name": "Atladara",
+        "city": "Vadodara",
+        "lat": 22.274,
+        "lon": 73.154
+      },
+      "vadsar": {
+        "name": "Vadsar",
+        "city": "Vadodara",
+        "lat": 22.251,
+        "lon": 73.167
+      },
+      "makarpura": {
+        "name": "Makarpura",
+        "city": "Vadodara",
+        "lat": 22.261,
+        "lon": 73.195
+      },
+      "harni": {
+        "name": "Harni",
+        "city": "Vadodara",
+        "lat": 22.348,
+        "lon": 73.208
+      },
+      "chhani": {
+        "name": "Chhani",
+        "city": "Vadodara",
+        "lat": 22.355,
+        "lon": 73.166
+      },
+      "gorwa": {
+        "name": "Gorwa",
+        "city": "Vadodara",
+        "lat": 22.331,
+        "lon": 73.152
+      },
+      "tarsali": {
+        "name": "Tarsali",
+        "city": "Vadodara",
+        "lat": 22.252,
+        "lon": 73.206
+      },
+      "vasna_bhayli": {
+        "name": "Vasna Bhayli Road",
+        "city": "Vadodara",
+        "lat": 22.29,
+        "lon": 73.136
+      },
+      "msu_baroda": {
+        "name": "MSU Baroda",
+        "city": "Vadodara",
+        "lat": 22.3188,
+        "lon": 73.1912
+      },
+      "parul_university": {
+        "name": "Parul University",
+        "city": "Vadodara",
+        "lat": 22.2882,
+        "lon": 73.3639
+      },
+      "itm_vocational": {
+        "name": "ITM Vocational University",
+        "city": "Vadodara",
+        "lat": 22.4287,
+        "lon": 73.2843
+      },
+      "bits_edu_campus": {
+        "name": "BITS Edu Campus",
+        "city": "Vadodara",
+        "lat": 22.2536,
+        "lon": 73.1866
+      },
+      "navrachana_university": {
+        "name": "Navrachana University",
+        "city": "Vadodara",
+        "lat": 22.3448,
+        "lon": 73.1669
+      },
+      "sigma_university": {
+        "name": "Sigma University",
+        "city": "Vadodara",
+        "lat": 22.2847,
+        "lon": 73.315
+      },
+      "gsfc_university": {
+        "name": "GSFC University",
+        "city": "Vadodara",
+        "lat": 22.3688,
+        "lon": 73.1633
+      },
+      "svit_vasad": {
+        "name": "SVIT Vasad",
+        "city": "Vadodara",
+        "lat": 22.4632,
+        "lon": 73.0645
+      },
+      "neotech_institute": {
+        "name": "Neotech Institute of Technology",
+        "city": "Vadodara",
+        "lat": 22.2615,
+        "lon": 73.2683
+      },
+      "pioneer_pharmacy": {
+        "name": "Pioneer Pharmacy College",
+        "city": "Vadodara",
+        "lat": 22.3432,
+        "lon": 73.2389
+      },
+      "sumandeep_vidyapeeth": {
+        "name": "Sumandeep Vidyapeeth",
+        "city": "Vadodara",
+        "lat": 22.2987,
+        "lon": 73.3429
+      },
+      "piodes": {
+        "name": "Parul Institute of Design (PIODES)",
+        "city": "Vadodara",
+        "lat": 22.2891,
+        "lon": 73.3642
+      },
+      "vrundavan": {
+        "name": "Vrundavan",
+        "city": "Vadodara",
+        "lat": 22.301,
+        "lon": 73.23
+      },
+      "uma": {
+        "name": "Uma",
+        "city": "Vadodara",
+        "lat": 22.302,
+        "lon": 73.235
+      },
+      "vaikunth": {
+        "name": "Vaikunth",
+        "city": "Vadodara",
+        "lat": 22.3,
+        "lon": 73.245
+      },
+      "waghodia_taluka": {
+        "name": "Waghodia Taluka",
+        "city": "Vadodara",
+        "lat": 22.298,
+        "lon": 73.385
+      },
+      "amodar": {
+        "name": "Amodar",
+        "city": "Vadodara",
+        "lat": 22.285,
+        "lon": 73.34
+      },
+      "kamlapura": {
+        "name": "Kamlapura",
+        "city": "Vadodara",
+        "lat": 22.315,
+        "lon": 73.35
+      },
+      "ajwa_chowkdi": {
+        "name": "Ajwa Chowkdi",
+        "city": "Vadodara",
+        "lat": 22.325,
+        "lon": 73.25
+      },
+      "waghodiya": {
+        "name": "Waghodiya",
+        "city": "Vadodara",
+        "lat": 22.3,
+        "lon": 73.38
+      }
+    },
+    "Ahmedabad": {
+      "navrangpura": {
+        "name": "Navrangpura",
+        "city": "Ahmedabad",
+        "lat": 23.03,
+        "lon": 72.56
+      },
+      "satellite": {
+        "name": "Satellite",
+        "city": "Ahmedabad",
+        "lat": 23.02,
+        "lon": 72.53
+      },
+      "vastrapur": {
+        "name": "Vastrapur",
+        "city": "Ahmedabad",
+        "lat": 23.01,
+        "lon": 72.54
+      },
+      "bodakdev": {
+        "name": "Bodakdev",
+        "city": "Ahmedabad",
+        "lat": 23.04,
+        "lon": 72.53
+      },
+      "thaltej": {
+        "name": "Thaltej",
+        "city": "Ahmedabad",
+        "lat": 23.05,
+        "lon": 72.52
+      },
+      "sg_highway": {
+        "name": "SG Highway",
+        "city": "Ahmedabad",
+        "lat": 23.035,
+        "lon": 72.51
+      },
+      "prahlad_nagar": {
+        "name": "Prahlad Nagar",
+        "city": "Ahmedabad",
+        "lat": 23.015,
+        "lon": 72.525
+      },
+      "gota": {
+        "name": "Gota",
+        "city": "Ahmedabad",
+        "lat": 23.06,
+        "lon": 72.5
+      },
+      "chandkheda": {
+        "name": "Chandkheda",
+        "city": "Ahmedabad",
+        "lat": 23.08,
+        "lon": 72.58
+      },
+      "motera": {
+        "name": "Motera",
+        "city": "Ahmedabad",
+        "lat": 23.09,
+        "lon": 72.6
+      },
+      "maninagar": {
+        "name": "Maninagar",
+        "city": "Ahmedabad",
+        "lat": 22.99,
+        "lon": 72.62
+      },
+      "naranpura": {
+        "name": "Naranpura",
+        "city": "Ahmedabad",
+        "lat": 23.035,
+        "lon": 72.55
+      }
+    },
+    "Gandhinagar": {
+      "sector_14": {
+        "name": "Sector 14",
+        "city": "Gandhinagar",
+        "lat": 23.22,
+        "lon": 72.64
+      },
+      "sector_15": {
+        "name": "Sector 15",
+        "city": "Gandhinagar",
+        "lat": 23.222,
+        "lon": 72.638
+      },
+      "sector_21": {
+        "name": "Sector 21",
+        "city": "Gandhinagar",
+        "lat": 23.21,
+        "lon": 72.63
+      },
+      "sector_11": {
+        "name": "Sector 11",
+        "city": "Gandhinagar",
+        "lat": 23.222,
+        "lon": 72.651
+      },
+      "sector_2": {
+        "name": "Sector 2",
+        "city": "Gandhinagar",
+        "lat": 23.243,
+        "lon": 72.661
+      },
+      "infocity": {
+        "name": "Infocity",
+        "city": "Gandhinagar",
+        "lat": 23.205,
+        "lon": 72.635
+      },
+      "adalaj": {
+        "name": "Adalaj",
+        "city": "Gandhinagar",
+        "lat": 23.16,
+        "lon": 72.63
+      },
+      "kudasan": {
+        "name": "Kudasan",
+        "city": "Gandhinagar",
+        "lat": 23.23,
+        "lon": 72.65
+      },
+      "sargasan": {
+        "name": "Sargasan",
+        "city": "Gandhinagar",
+        "lat": 23.19,
+        "lon": 72.62
+      },
+      "randesan": {
+        "name": "Randesan",
+        "city": "Gandhinagar",
+        "lat": 23.201,
+        "lon": 72.638
+      },
+      "gift_city": {
+        "name": "GIFT City",
+        "city": "Gandhinagar",
+        "lat": 23.161,
+        "lon": 72.686
+      },
+      "koba": {
+        "name": "Koba",
+        "city": "Gandhinagar",
+        "lat": 23.136,
+        "lon": 72.628
+      },
+      "bhaijipura": {
+        "name": "Bhaijipura",
+        "city": "Gandhinagar",
+        "lat": 23.208,
+        "lon": 72.649
+      },
+      "urjanagar": {
+        "name": "Urjanagar",
+        "city": "Gandhinagar",
+        "lat": 23.205,
+        "lon": 72.632
+      },
+      "pdeu": {
+        "name": "PDEU",
+        "city": "Gandhinagar",
+        "lat": 23.1555,
+        "lon": 72.6617
+      },
+      "da_iict": {
+        "name": "DA-IICT",
+        "city": "Gandhinagar",
+        "lat": 23.1885,
+        "lon": 72.6283
+      },
+      "iit_gandhinagar": {
+        "name": "IIT Gandhinagar",
+        "city": "Gandhinagar",
+        "lat": 23.212,
+        "lon": 72.6865
+      },
+      "gnlu": {
+        "name": "GNLU",
+        "city": "Gandhinagar",
+        "lat": 23.1664,
+        "lon": 72.6285
+      },
+      "nift_gandhinagar": {
+        "name": "NIFT Gandhinagar",
+        "city": "Gandhinagar",
+        "lat": 23.188,
+        "lon": 72.6295
+      },
+      "ksv_university": {
+        "name": "KSV University",
+        "city": "Gandhinagar",
+        "lat": 23.2235,
+        "lon": 72.6517
+      },
+      "nid_gandhinagar": {
+        "name": "NID Gandhinagar",
+        "city": "Gandhinagar",
+        "lat": 23.2058,
+        "lon": 72.6432
+      },
+      "karnavati_university": {
+        "name": "Karnavati University",
+        "city": "Gandhinagar",
+        "lat": 23.1785,
+        "lon": 72.5857
+      },
+      "ldrp_itr": {
+        "name": "LDRP-ITR",
+        "city": "Gandhinagar",
+        "lat": 23.2351,
+        "lon": 72.6367
+      },
+      "ihm_gandhinagar": {
+        "name": "IHM Gandhinagar",
+        "city": "Gandhinagar",
+        "lat": 23.2056,
+        "lon": 72.6373
+      },
+      "gujarat_vidyapith": {
+        "name": "Gujarat Vidyapith (Sadalpur)",
+        "city": "Gandhinagar",
+        "lat": 23.2201,
+        "lon": 72.6612
+      },
+      "iite_gandhinagar": {
+        "name": "IITE Gandhinagar",
+        "city": "Gandhinagar",
+        "lat": 23.2205,
+        "lon": 72.6521
+      }
+    },
+    "Surat": {
+      "athwa": {
+        "name": "Athwa",
+        "city": "Surat",
+        "lat": 21.18,
+        "lon": 72.83
+      },
+      "ves": {
+        "name": "Ves",
+        "city": "Surat",
+        "lat": 21.17,
+        "lon": 72.82
+      },
+      "nanpura": {
+        "name": "Nanpura",
+        "city": "Surat",
+        "lat": 21.165,
+        "lon": 72.825
+      },
+      "ghoddod_road": {
+        "name": "Ghoddod Road",
+        "city": "Surat",
+        "lat": 21.185,
+        "lon": 72.84
+      },
+      "piplod": {
+        "name": "Piplod",
+        "city": "Surat",
+        "lat": 21.19,
+        "lon": 72.845
+      },
+      "dumas": {
+        "name": "Dumas",
+        "city": "Surat",
+        "lat": 21.2,
+        "lon": 72.81
+      }
+    },
+    "Rajkot": {
+      "madhapar": {
+        "name": "Madhapar",
+        "city": "Rajkot",
+        "lat": 22.32,
+        "lon": 70.81
+      },
+      "kalawad_road": {
+        "name": "Kalawad Road",
+        "city": "Rajkot",
+        "lat": 22.31,
+        "lon": 70.79
+      },
+      "junction_plot": {
+        "name": "Junction Plot",
+        "city": "Rajkot",
+        "lat": 22.305,
+        "lon": 70.8
+      },
+      "nana_mauva": {
+        "name": "Nana Mauva",
+        "city": "Rajkot",
+        "lat": 22.33,
+        "lon": 70.815
+      },
+      "mavdi": {
+        "name": "Mavdi",
+        "city": "Rajkot",
+        "lat": 22.34,
+        "lon": 70.795
+      }
+    },
+    "Anand": {
+      "anand_town": {
+        "name": "Anand Town",
+        "city": "Anand",
+        "lat": 22.5649,
+        "lon": 72.9553
+      },
+      "vidyanagar": {
+        "name": "Vidyanagar",
+        "city": "Anand",
+        "lat": 22.55,
+        "lon": 72.95
+      },
+      "sardar_patel_nagar": {
+        "name": "Sardar Patel Nagar",
+        "city": "Anand",
+        "lat": 22.56,
+        "lon": 72.96
+      },
+      "bakrol": {
+        "name": "Bakrol",
+        "city": "Anand",
+        "lat": 22.54,
+        "lon": 72.94
+      }
+    },
+    "Bharuch": {
+      "bharuch_town": {
+        "name": "Bharuch Town",
+        "city": "Bharuch",
+        "lat": 21.7051,
+        "lon": 72.9959
+      },
+      "ankleshwar": {
+        "name": "Ankleshwar",
+        "city": "Bharuch",
+        "lat": 21.62,
+        "lon": 72.99
+      },
+      "golden_bridge": {
+        "name": "Golden Bridge",
+        "city": "Bharuch",
+        "lat": 21.71,
+        "lon": 72.995
+      },
+      "zadeshwar": {
+        "name": "Zadeshwar",
+        "city": "Bharuch",
+        "lat": 21.72,
+        "lon": 73
+      }
+    },
+    "Mehsana": {
+      "mehsana_town": {
+        "name": "Mehsana Town",
+        "city": "Mehsana",
+        "lat": 23.588,
+        "lon": 72.3693
+      },
+      "sidhpur": {
+        "name": "Sidhpur",
+        "city": "Mehsana",
+        "lat": 23.61,
+        "lon": 72.38
+      },
+      "un": {
+        "name": "Un",
+        "city": "Mehsana",
+        "lat": 23.57,
+        "lon": 72.35
+      },
+      "visnagar": {
+        "name": "Visnagar",
+        "city": "Mehsana",
+        "lat": 23.71,
+        "lon": 72.55
+      }
+    },
+    "Kheda": {
+      "kheda_town": {
+        "name": "Kheda Town",
+        "city": "Kheda",
+        "lat": 22.7548,
+        "lon": 72.6844
+      },
+      "nadiad": {
+        "name": "Nadiad",
+        "city": "Kheda",
+        "lat": 22.6914,
+        "lon": 72.8603
+      },
+      "mahudha": {
+        "name": "Mahudha",
+        "city": "Kheda",
+        "lat": 22.82,
+        "lon": 72.72
+      },
+      "thasra": {
+        "name": "Thasra",
+        "city": "Kheda",
+        "lat": 22.8,
+        "lon": 72.7
+      }
+    },
+    "Godhra": {
+      "godhra_town": {
+        "name": "Godhra Town",
+        "city": "Godhra",
+        "lat": 22.7739,
+        "lon": 73.6205
+      },
+      "kalol": {
+        "name": "Kalol",
+        "city": "Godhra",
+        "lat": 22.8,
+        "lon": 73.65
+      },
+      "halol": {
+        "name": "Halol",
+        "city": "Godhra",
+        "lat": 22.82,
+        "lon": 73.47
+      }
+    },
+    "Himmatnagar": {
+      "himmatnagar_town": {
+        "name": "Himmatnagar Town",
+        "city": "Himmatnagar",
+        "lat": 23.5961,
+        "lon": 71.872
+      },
+      "talod": {
+        "name": "Talod",
+        "city": "Himmatnagar",
+        "lat": 23.62,
+        "lon": 71.89
+      },
+      "vadnagar": {
+        "name": "Vadnagar",
+        "city": "Himmatnagar",
+        "lat": 23.61,
+        "lon": 71.88
+      }
+    },
+    "Bhavnagar": {
+      "bhavnagar_town": {
+        "name": "Bhavnagar Town",
+        "city": "Bhavnagar",
+        "lat": 21.7645,
+        "lon": 72.1519
+      },
+      "sidsar": {
+        "name": "Sidsar",
+        "city": "Bhavnagar",
+        "lat": 21.78,
+        "lon": 72.16
+      },
+      "takhteshwar": {
+        "name": "Takhteshwar",
+        "city": "Bhavnagar",
+        "lat": 21.77,
+        "lon": 72.155
+      }
+    },
+    "Jamnagar": {
+      "jamnagar_town": {
+        "name": "Jamnagar Town",
+        "city": "Jamnagar",
+        "lat": 22.4707,
+        "lon": 70.0727
+      },
+      "digvijay_nagar": {
+        "name": "Digvijay Nagar",
+        "city": "Jamnagar",
+        "lat": 22.48,
+        "lon": 70.08
+      },
+      "govind_nagar": {
+        "name": "Govind Nagar",
+        "city": "Jamnagar",
+        "lat": 22.465,
+        "lon": 70.065
+      }
+    },
+    "Junagadh": {
+      "junagadh_town": {
+        "name": "Junagadh Town",
+        "city": "Junagadh",
+        "lat": 21.5222,
+        "lon": 70.4856
+      },
+      "veraval": {
+        "name": "Veraval",
+        "city": "Junagadh",
+        "lat": 20.93,
+        "lon": 70.34
+      },
+      "mangrol": {
+        "name": "Mangrol",
+        "city": "Junagadh",
+        "lat": 21.1,
+        "lon": 70.12
+      }
+    },
+    "Nadiad": {
+      "nadiad_town": {
+        "name": "Nadiad Town",
+        "city": "Nadiad",
+        "lat": 22.6914,
+        "lon": 72.8603
+      },
+      "dholari": {
+        "name": "Dholari",
+        "city": "Nadiad",
+        "lat": 22.7,
+        "lon": 72.87
+      }
+    },
+    "Valsad": {
+      "valsad_town": {
+        "name": "Valsad Town",
+        "city": "Valsad",
+        "lat": 20.5992,
+        "lon": 72.9342
+      },
+      "vapi": {
+        "name": "Vapi",
+        "city": "Valsad",
+        "lat": 20.37,
+        "lon": 72.91
+      },
+      "dharampur": {
+        "name": "Dharampur",
+        "city": "Valsad",
+        "lat": 20.54,
+        "lon": 72.87
+      },
+      "bilimora": {
+        "name": "Bilimora",
+        "city": "Valsad",
+        "lat": 20.57,
+        "lon": 72.92
+      }
+    },
+    "Navsari": {
+      "navsari_town": {
+        "name": "Navsari Town",
+        "city": "Navsari",
+        "lat": 20.9506,
+        "lon": 72.9301
+      },
+      "junagam": {
+        "name": "Junagam",
+        "city": "Navsari",
+        "lat": 20.94,
+        "lon": 72.92
+      },
+      "chikhli": {
+        "name": "Chikhli",
+        "city": "Navsari",
+        "lat": 20.92,
+        "lon": 72.91
+      }
+    },
+    "Porbandar": {
+      "porbandar_town": {
+        "name": "Porbandar Town",
+        "city": "Porbandar",
+        "lat": 21.642,
+        "lon": 69.6097
+      },
+      "ranavav": {
+        "name": "Ranavav",
+        "city": "Porbandar",
+        "lat": 21.67,
+        "lon": 69.63
+      }
+    },
+    "Surendranagar": {
+      "surendranagar_town": {
+        "name": "Surendranagar Town",
+        "city": "Surendranagar",
+        "lat": 22.7273,
+        "lon": 71.6483
+      },
+      "wadhwan": {
+        "name": "Wadhwan",
+        "city": "Surendranagar",
+        "lat": 22.71,
+        "lon": 71.64
+      },
+      "lakhtar": {
+        "name": "Lakhtar",
+        "city": "Surendranagar",
+        "lat": 22.75,
+        "lon": 71.66
+      }
+    },
+    "Gandhidham": {
+      "gandhidham_town": {
+        "name": "Gandhidham Town",
+        "city": "Gandhidham",
+        "lat": 23.0753,
+        "lon": 70.1335
+      },
+      "kandla": {
+        "name": "Kandla",
+        "city": "Gandhidham",
+        "lat": 23.09,
+        "lon": 70.15
+      },
+      "adipur": {
+        "name": "Adipur",
+        "city": "Gandhidham",
+        "lat": 23.06,
+        "lon": 70.12
+      },
+      "bhuj": {
+        "name": "Bhuj",
+        "city": "Gandhidham",
+        "lat": 23.25,
+        "lon": 69.67
+      }
+    }
+  }
+}

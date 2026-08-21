@@ -1,0 +1,46 @@
+*.iml
+.gradle
+/local.properties
+local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+admin-panel
+# IDE
+.idea/
+
+# Kotlin compiler errors
+.kotlin/
+
+# Agent config (local tooling)
+.agent/
+
+# Instructions (local dev docs)
+Instructions/
+
+# All loose text/log dumps in root
+*.log
+*.txt
+gradle.properties
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets & Service Accounts
+stay-buddy-*.json
+*.keystore
+*.jks
+window_dump*.xml
+graphify-out/
+node_modules/
+personal-notes/
+.claude/
+.firebase/
+.next/
+screen_*.png
+public-web/
+scripts/
+staybuddy-worker/scratch/

@@ -1,0 +1,13 @@
+{
+  "name": "staybuddy-backend",
+  "version": "1.0.0",
+  "description": "Vercel backend for StayBuddy push notifications",
+  "main": "api/send-notification.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "google-auth-library": "^10.9.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
