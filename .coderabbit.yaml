@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://coderabbit.ai/export/schema.json
+language: "en-US"
+early_access: false
+reviews:
+  # 'chill' provides constructive feedback without being overly pedantic
+  # 'assertive' is stricter and enforces more best practices
+  profile: "chill"
+  
+  # Automatically review all new pull requests
+  auto_review:
+    enabled: true
+    drafts: false
+    
+  # High-level summary of changes
+  high_level_summary: true
+  
+  # Set to true if you want CodeRabbit to block PRs with issues
+  request_changes_workflow: false
+  
+  # Post a review status comment
+  review_status: true
+
+chat:
+  # Automatically reply to mentions in PR comments
+  auto_reply: true

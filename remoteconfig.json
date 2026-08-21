@@ -1,0 +1,39 @@
+{
+  "parameters": {
+    "force_update_below_version": {
+      "defaultValue": {
+        "value": "0"
+      },
+      "description": "Version code below which the update is mandatory. (e.g. Set to 3 if current versionCode 2 is broken)",
+      "valueType": "NUMBER"
+    },
+    "update_message": {
+      "defaultValue": {
+        "value": "A new version of StayBuddy is available! Update for the best experience."
+      },
+      "description": "The message shown in the update dialog.",
+      "valueType": "STRING"
+    },
+    "latest_version_code": {
+      "defaultValue": {
+        "value": "32"
+      },
+      "description": "The latest version code available for update.",
+      "valueType": "NUMBER"
+    },
+    "apk_download_url": {
+      "defaultValue": {
+        "value": "https://github.com/aasavchauhan/StayBuddy/releases/download/v1.0.32/StayBuddy-debug.apk"
+      },
+      "description": "The download URL for the latest APK.",
+      "valueType": "STRING"
+    },
+    "is_update_mandatory": {
+      "defaultValue": {
+        "value": "false"
+      },
+      "description": "Whether the update is mandatory.",
+      "valueType": "BOOLEAN"
+    }
+  }
+}

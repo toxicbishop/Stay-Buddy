@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StayBuddy</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_chats">Chats</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Common Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_decline">Decline</string>
+    <string name="action_chat">Chat</string>
+    <string name="action_logout">Log Out</string>
+
+    <!-- Screen Titles & Empty States -->
+    <string name="title_notifications">Notifications</string>
+    <string name="no_notifications_yet">No notifications yet</string>
+    <string name="title_my_business">My Business</string>
+    <string name="no_properties_yet">You haven\'t added any properties yet.</string>
+    <string name="title_inquiries">Tenant Inquiries</string>
+    <string name="no_inquiries_yet">No inquiries yet.</string>
+    <string name="title_quiz">Lifestyle Quiz</string>
+    <string name="no_quiz_questions">Lifestyle quiz questions are currently unavailable.</string>
+    <string name="title_map">Map View</string>
+    <string name="no_map_pgs">No PGs found on map in this area</string>
+</resources>

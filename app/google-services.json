@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "611800697150",
+    "project_id": "stay-buddy-9d294",
+    "storage_bucket": "stay-buddy-9d294.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611800697150:android:eda136257f455c4f9b046f",
+        "android_client_info": {
+          "package_name": "com.example.staybuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611800697150-13vplqmv3f2sh232dor35liciglssv15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.staybuddy",
+            "certificate_hash": "e74d039c6007cd543322a341c5e2d0ed05a7df63"
+          }
+        },
+        {
+          "client_id": "611800697150-vmsup1kcpbbu1mrhihjfudh7italafad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.staybuddy",
+            "certificate_hash": "1da9374374754e63ad2f06205f17ad1af1797421"
+          }
+        },
+        {
+          "client_id": "611800697150-o363k5dc1d5j3ta0jp5isanao4d4sbnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611800697150-lcqo34l8r50v1brm6dsnf7bkrjb5pslr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

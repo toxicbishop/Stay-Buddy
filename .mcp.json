@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "reticle": {
+      "command": "npx",
+      "args": [
+        "@reticlehq/core",
+        "mcp"
+      ]
+    },
+    "firebase": {
+      "command": "npx",
+      "args": ["-y", "firebase-tools@latest", "mcp"]
+    }
+  }
+}
