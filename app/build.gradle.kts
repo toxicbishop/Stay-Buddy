@@ -40,12 +40,37 @@ android {
         jvmTarget = "17"
     }
 
+    val keystorePath = providers.environmentVariable("RELEASE_KEYSTORE_PATH").orNull
+        ?: providers.gradleProperty("RELEASE_KEYSTORE_PATH").orNull
+        ?: "staybuddy-release-key.jks"
+    val releaseKeystore = sequenceOf(
+        file(keystorePath),
+        rootProject.file(keystorePath),
+        rootProject.file("release.keystore"),
+        file("release.keystore")
+    ).firstOrNull { it.exists() }
+
+    val releaseStorePassword = providers.environmentVariable("RELEASE_KEYSTORE_PASSWORD").orNull
+        ?: providers.gradleProperty("RELEASE_STORE_PASSWORD").orNull
+        ?: providers.gradleProperty("RELEASE_KEYSTORE_PASSWORD").orNull
+    val releaseKeyAlias = providers.environmentVariable("RELEASE_KEY_ALIAS").orNull
+        ?: providers.gradleProperty("RELEASE_KEY_ALIAS").orNull
+    val releaseKeyPassword = providers.environmentVariable("RELEASE_KEY_PASSWORD").orNull
+        ?: providers.gradleProperty("RELEASE_KEY_PASSWORD").orNull
+
+    val isReleaseSigningConfigured = releaseKeystore != null &&
+        !releaseStorePassword.isNullOrBlank() &&
+        !releaseKeyAlias.isNullOrBlank() &&
+        !releaseKeyPassword.isNullOrBlank()
+
     signingConfigs {
-        create("release") {
-            storeFile = file("staybuddy-release-key.jks")
-            storePassword = "staybuddy123"
-            keyAlias = "staybuddy-key-alias"
-            keyPassword = "staybuddy123"
+        if (isReleaseSigningConfigured) {
+            create("release") {
+                storeFile = releaseKeystore
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
         }
     }
 
@@ -53,7 +78,11 @@ android {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
-            signingConfig = signingConfigs.getByName("release")
+
+            if (isReleaseSigningConfigured) {
+                signingConfig = signingConfigs.getByName("release")
+            }
+
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
