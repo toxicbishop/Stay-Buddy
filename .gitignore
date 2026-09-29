@@ -10,12 +10,16 @@ local.properties
 admin-panel
 # IDE
 .idea/
+.vscode/
+.cursor/
 
 # Kotlin compiler errors
 .kotlin/
 
 # Agent config (local tooling)
 .agent/
+.agents/
+.codex/
 
 # Instructions (local dev docs)
 Instructions/
@@ -23,7 +27,6 @@ Instructions/
 # All loose text/log dumps in root
 *.log
 *.txt
-gradle.properties
 
 # Python cache
 __pycache__/
