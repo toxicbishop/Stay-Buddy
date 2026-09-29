@@ -1,6 +1,11 @@
-const apiKey = "YOUR_FIREBASE_API_KEY";
-const email = "bot@staybuddy.com";
-const password = "YOUR_BOT_PASSWORD";
+const apiKey = process.env.FIREBASE_API_KEY;
+const email = process.env.BOT_EMAIL || "bot@staybuddy.com";
+const password = process.env.BOT_PASSWORD;
+
+if (!apiKey || !password) {
+    console.error("Missing required environment variables: FIREBASE_API_KEY and BOT_PASSWORD");
+    process.exit(1);
+}
 
 fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${apiKey}`, {
     method: 'POST',
