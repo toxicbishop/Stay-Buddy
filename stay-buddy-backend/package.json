@@ -4,7 +4,7 @@
   "description": "Vercel backend for StayBuddy push notifications",
   "main": "api/send-notification.js",
   "dependencies": {
-    "firebase-admin": "^12.1.0",
+    "firebase-admin": "^14.5.0",
     "google-auth-library": "^10.9.0"
   },
   "overrides": {
